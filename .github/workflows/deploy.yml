@@ -4,7 +4,7 @@ name: Test, Lint, and Deploy Project
 on: push
 jobs:
   test:
-    runs-on: ununtu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Get the code
         uses: actions/checkout@v3
