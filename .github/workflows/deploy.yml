@@ -1,6 +1,6 @@
 # @format
 
-name: Test, Lint, and Deploy
+name: Test, Lint, and Deploy Project
 on: push
 jobs:
   test:
