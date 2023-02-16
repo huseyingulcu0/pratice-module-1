@@ -1,0 +1,10 @@
+# @format
+
+name: Issue
+on: issues
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        run: echo " ${{ github.event.issue }} "
